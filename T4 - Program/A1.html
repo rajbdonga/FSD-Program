@@ -1,1 +1,311 @@
+<html>
+    <head>
+        <!-- <script src = "A1.js"></script> -->
+    </head>
+    <body>
+        <!-- <h2> Welcome to javascript</h2>
 
+
+        <script>
+            document.write("Hello World <br>");
+        </script>
+
+
+        <script>
+            var x = 10;
+            var y = 20;+
+            var z = x+y;
+            document.write("Value of z is : " + z);
+        </script>
+
+
+        <script>
+            function myfunction(p1,p2){
+                return p1 * p2;
+            }
+            document.write("<br>")
+            document.write("value = " + myfunction(4,3))
+        </script> -->
+
+
+        <!-- <script>
+            let a = 10;
+            function f(){
+                let b = 9; 
+                console.log(b);
+                console.log(a);
+            }
+            f();
+            a = 15;
+            console.log(a);
+            console.log(b);
+        </script> -->
+        
+
+        <!-- <script>
+        const a = 20;
+        function f(){
+            a = 25;
+            console.log(a);
+        }
+        document.write("value : "+f());
+        </script>  -->
+
+
+        <!-- <script>
+            console.log(new Date().getDay());
+        </script> -->
+
+        <!-- <script>
+            var a = undefined;
+            var b = "test";
+            var c = true;
+            var d = 5;
+            let e = null;
+            document.write(typeof(a) + "</br>");
+            document.write(typeof(b) + "</br>");
+            document.write(typeof(c) + "</br>");
+            document.write(typeof(d) + "</br>");
+            document.write(typeof(e) + "</br>");
+            var x = 1 + 2 + "abc";
+            document.write(x + " " + typeof(x));
+        </script>
+
+        <script>
+            const person = {firstname : "<br> ABC" , lastname : "PQR" , age : 39};
+            document.write(person.firstname + " " + person.lastname + " " + person.age);
+            document.write("<br>" + person);
+            console.log(person);
+        </script>
+
+        <script>
+            const myarray = ["<br> banana" , "apple <br>"];
+            document.write(myarray);
+        </script>
+ 
+        <script>
+            let len = myarray.length;
+            document.write(len + "<br>");
+        </script> -->
+
+        <!-- create one array of 5 numeric value multi each element 
+        of array by 2 and display in new line -->
+
+        <!-- <script>
+            const carray = [1 , 2 , 3 , 4 , 5];
+            let len1 = carray.length;
+            for (let i = 0; i < len1; i++) {
+                carray[i] = carray[i] * 2;
+                document.write(carray[i] + "<br>");
+            }
+        </script> -->
+
+        <!-- wap take to digit number and seperete this two digit
+        and multiply first digit by itself for second digit times -->
+
+        <!-- <script>
+            const num1 = 64;
+            n = num1 % 10;
+            n1 = parseInt(num1 / 10);
+            document.write(Math.pow(n1,n) + "<br>");
+        </script> -->
+
+        <!-- 1 + x/1! + x^2/2! + x^3/3! + x^4/4! program -->
+
+        <!-- <script>
+            for(i = 1 ; i <= 4 ; i++){
+                var a = 1 + (Math.pow(x , i)/fact(i));
+            }
+            document.write(a);
+        </script> -->
+
+        <!-- 5 , 3 , 8 , 2 , 10 ME SE FIRST AND SECOND ELEMENT ME COMPARISION KARNE 
+        KE BIG ELEMENT AGAR FIST HOTA HAI TO SWIPE KARNA NAHI NAHI TO AAGE BADHNA HAI -->
+
+        <!-- <script>
+            let arr = [5 , 3 , 8 , 2 , 10];
+            let len2 = arr.length;
+            for (let i = 0; i < len2; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    let temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    }
+                    }
+                    document.write(arr);
+        </script> -->
+
+        <!-- lucky number program 19 = 1 + 9 = 10 = 1 + 0 = 1  -->
+
+        <!-- <script>
+            n = 55;
+            m = n;
+            while (n > 9) {
+                sum = 0;
+                while (n > 0) {
+                    i = n % 10;
+                    sum = sum + i;
+                    n = parseInt(n / 10);
+                }
+                n = sum;
+            }
+            if (n == 1) {
+                document.write("<br>" + m + " is a lucky number <br>");
+            } else {
+                document.write(m + " is not a lucky number <br>");
+            }
+        </script> -->
+
+        <!-- javascript popup box -->
+
+        <!-- <script>
+            function warn() {
+                alert("This is warning msg");
+            }
+        </script>
+
+        <input type="button" value="Click Me" onclick="warn()"/> -->
+
+        <!-- javascript confirm box -->
+
+        <!-- <script>
+            function conf() {
+                ret = confirm("Do you want to continue?");
+                if(ret == true) {
+                    document.write("user wants to continue");
+                    return true;
+                }
+                else {
+                    document.write("user does not wants to continue");
+                    return false;
+                }
+            }
+        </script>
+
+        <input type="button" value="Click Me" onclick="conf()"/> -->
+
+        <!-- javascript prompt box -->
+
+        <!-- <script>
+            function prom() {
+                var name = prompt("Enter your name");
+                if (name == "") {
+                    document.write("You did not enter your name");
+                    }
+                else if(name != null){
+                    document.write("Hello " + name);
+                }  
+                else{
+                    document.write("user does not wants to continue");
+                }  
+            }
+        </script>
+
+        <input type="button" value="Click Me" onclick="prom()"/> -->
+
+        <!-- javascript Math object -->
+
+        <!-- <script>
+            document.write("<br>" + Math.ceil(4.9));
+            document.write(Math.floor(4.7));
+            document.write(Math.pow(8,2));
+            document.write(Math.sqrt(64));
+            document.write(Math.abs(-4.8) + "<br>");
+        </script> -->
+
+        <!-- javascript string object -->
+
+        <!-- <script>
+            text1 = "please locate where 'locate occurs";
+            text = "Hello World";
+            str = "";
+            document.write(text.substring(2,6) + "<br>");
+            document.write(text.substr(2,6) + "<br>");
+            document.write(text.replace("Hello" , "two") + "<br>");
+            document.write(text.toUpperCase() + "<br>");
+            document.write(text.toLowerCase() + "<br>");
+            document.write(text.concat("Hello") + "<br>");
+            document.write(text.charAt(3) + "<br>");
+            document.write(text.charCodeAt(3) + "<br>");
+            document.write(text1.indexOf("locate") + "<br>");
+            document.write(text1.lastIndexOf("locate") + "<br>");
+            myarr = text1.split(str);
+            document.write(myarr + "<br>");
+        </script> -->
+
+        <!-- WAP that find first possition of first occurens vowel a and last occurens
+        of vowel a in the given of return the string between them -->
+
+        <!-- <script>
+            word = prompt("Enter the word");
+            pos = word.indexOf("a");
+            lastpos = word.lastIndexOf("a");
+            document.write(pos + "<br>");
+            document.write(lastpos + "<br>");
+            document.write(word.substring(pos + 1 , lastpos) + "<br>");
+        </script> -->
+
+        <!-- wap that the no of vowel find the perticuler string -->
+
+        <!-- <script>
+            word = prompt("Enter the word");
+            count = 0;
+            for (i = 0; i < word.length; i++) {
+                if (word.charAt(i).toLowerCase(i) == "a" || word.charAt(i).toLowerCase(i) == "e"
+                || word.charAt(i).toLowerCase(i) == "i" || word.charAt(i).toLowerCase(i) == "o"
+                || word.charAt(i).toLowerCase(i) == "u") {
+                    count++;
+                }
+            }
+            document.write(count + "<br>");
+        </script> -->
+
+        <!-- check occurence of a given character in to string entered by user -->
+
+        <!-- 1 method --------------------------------------------------------------------->
+
+        <!-- <script>
+            str = prompt("Enter the string");
+            ch = prompt("Enter the character");
+            count = 0;
+            for (i = 0; i < str.length; i++) {
+                if (str.charAt(i) == ch) {
+                    count++;
+                }
+            }
+            document.write("The character count is : " +count + "<br>");
+        </script> -->
+
+        <!-- 2 method --------------------------------------------------------------------->
+
+        <!-- <script>
+            str = prompt("Enter the string");
+            ch = prompt("Enter the character");
+            arr = str.split(c);
+            document.write(arr.length-1);
+        </script> -->
+
+        <!-- Date objects -->
+
+        <!-- <script>
+            d = new Date("2025-01-10 , 05:40");
+            document.write(d.getFullYear() + "<br>");
+            document.write(d.getMonth() + "<br>");
+            document.write(d.getDate() + "<br>");
+            document.write(d.getHours() + "<br>");
+            document.write(d.getMinutes() + "<br>");
+            document.write(d.getDay() + "<br>");
+        </script> -->
+
+        <!-- wwrite a javascript program calculate no. of days left in your birthday bu user threw input -->
+
+        <!-- <script>
+            birthday = new Date("2025-12-27");
+            today = new Date();
+            diff = birthday - today;
+            days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            document.write("Days left for your birthday : " + days);
+        </script> -->
+
+    </body>
+</html> 
