@@ -1,0 +1,24 @@
+<!-- Write one json string with date property (YYYY-MM-DD) and print this date on browser hading 
+     and print and a button click me the press , date must be ist -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="a"></h1>
+    <button onclick="fun()">Click Me!</button>
+
+    <script>
+        function fun(){
+            var b = '{"date" : "2025-03-18"}';
+            var b1 = JSON.parse(b);
+            var myd = new Date(b1.date)
+            document.getElementById("a").innerText = myd;
+         }
+    </script>
+</body>
+</html>
