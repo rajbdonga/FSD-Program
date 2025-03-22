@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Wac to perform a taskas given below 
+    1. Hello World should be displaye after five seconds 
+    2. Create hedding LJU Enginnering and three buttons
+    3. + button incresing the font size of the heading every 100 milli second until it reaches
+       200px and stop button is press
+    4. Simalarly - button decreses font size until 20px or stop button is click
+    (Font Size = 50px) -->
+
+    <h1 id = "a"></h1>
+    <h1 id = "b">LJU Enginnering</h1>
+    <button onclick="increment()">+</button>
+    <button onclick="decrement()">-</button>
+    <button onclick="stop()">STOP</button>
+
+    <script>
+        var a = document.getElementById("a");
+        var b = document.getElementById("b");
+
+        setTimeout(() => a.innerHTML = "Hello World" , 5000)
+
+        f = 50;
+        function setsize(f){
+            b.style.fontSize = f + "px";
+        }
+        setsize(f);
+
+        function increment(){
+            test = setInterval(() => {
+            if(f < 200)
+                setsize(++f);
+            } , 100);
+        }
+
+        function decrement(){
+            test = setInterval(() => {
+            if(f > 20)
+                setsize(--f);
+            });
+        }
+
+        function stop(){
+            clearInterval(test);
+        }
+    </script>
+    
+</body>
+</html>
