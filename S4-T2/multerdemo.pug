@@ -1,0 +1,9 @@
+html 
+ body 
+  form(action="/uploads",method='post',enctype='multipart/form-data')
+   label(for='myfile') select file : 
+   input(type='file',name='myfile',id='myfile',multiple)
+   br
+   br
+   label(for='myfile') upload file : 
+   input(type='submit',value='upload')

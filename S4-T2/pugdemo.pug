@@ -1,0 +1,27 @@
+html 
+ head 
+  title My Pug File 
+
+ body 
+  h1 Home Page 
+  div Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, dolorum quae facere ab non est, eveniet obcaecati accusantium sunt hic impedit similique magnam ipsam neque architecto veniam necessitatibus quas mollitia!
+  div 
+   |abc 
+   |xyz 
+  div.
+   abc  
+   xyz 
+  div#myid.myclass 
+   |abc
+  ol(type = 'A',start=1)
+   li raj 
+   li donga 
+   li rajbhai 
+   li rajbhaidonga
+  div(style="color: red; background-color: yellow; width: 100px;")
+   |Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad autem dolores quidem culpa similique facere tenetur, possimus laborum optio, nihil harum aperiam nisi dicta asperiores esse, excepturi doloremque nulla! Sint.
+  -var no=640;
+  h2='mul is'+(640*2)
+  h1 Message is:#{message}
+  h1 Amount is:#{amount}
+  h1='Amount is '+(amount*5)

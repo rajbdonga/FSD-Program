@@ -1,0 +1,15 @@
+// create a form using pug which has user name and email id and submit button , when the click the submit button show user name and email id on path /login also create a link show data from file. on /show path show data from a pug file.
+
+html
+ head
+  title Login Form
+ body
+  h1 User Login Form
+  form(action='/login',method='post')
+   label(for='username') Username:
+   input(type='text', name='username', id='username')
+   br
+   label(for='email') Email:
+   input(type='email', name='email', id='email')
+   br
+   input(type='submit')
