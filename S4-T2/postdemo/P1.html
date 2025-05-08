@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit-form" method="post">
+        <label for="no1">no1:</label>
+        <input type="text" id="no1" name="no1"><br><br>
+
+        <label for="no2">no2:</label>
+        <input type="text" id="no2" name="no2"><br><br>
+
+        <label for="op">Operation:</label>
+        <select name="op">
+        <option value="select" disabled hidden selected>--Select--</option>
+        <option value="Add">Add</option>
+        <option value="Sub">Sub</option>
+        <option value="Mul">Mul</option>
+        <option value="Div">Div</option>
+        </select><br><br>
+
+        <input type="button" value="Calculate">
+
+    </form>    
+</body>
+</html>
